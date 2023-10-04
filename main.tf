@@ -70,7 +70,7 @@ module "alb_attach" {
   source            = "git::https://github.com/dnisha/vault-terraform.git?ref=alb-module"
   vpc_id            = module.network.ninja_vpc_id
   alb_subnet_list   = module.network.pub_subnet_id_list
-  vault_ami         = "ami-0f5ee92e2d63afc18"
+  vault_ami         = "ami-01f5d8f78aae92ba0"
   public_sg_list    = module.pub_security.sg_id
   vault_instance    = module.vault_instance.instance_object
   vault_sg_list     = module.priv_security.sg_id
