@@ -73,7 +73,7 @@ variable "batian_instance_map" {
 
   default = {
     "instance-pub-sub-01" = {
-      ami                 = "ami-0a76282b7240ac683"
+      ami                 = "ami-08a38a47f9422eac9"
       key_name            = "gone-servers"
       associate_public_ip = true
       tool                = "batian"
